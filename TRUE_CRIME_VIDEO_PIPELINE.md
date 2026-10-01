@@ -315,10 +315,32 @@ Phrases jaise *"pero lo que nadie sabía era…"*, *"semanas después…"* — h
 ---
 
 ## 5. STEP 4 — VOICEOVER (TTS)
-> *(User ne kaha filhaal voice analyze nahi karni — isliye yeh short rakha hai.)*
-- Faceless channels TTS ya voice-actor use karte hain. Spanish male, calm-dark narrator tone.
-- Options: ElevenLabs (best quality, voice clone), Azure/Google TTS, or human VO on Fiverr.
-- Export: WAV/MP3, normalize to ~ -14 LUFS.
+
+### Competitor narrator profile (match karne ke liye)
+Male, deep, **calm + serious** (menacing calm — cheekhta nahi), slow (~130–145 wpm), deliberate pauses, neutral **Mexican Spanish**, light reverb on key phrases, "nocturnal storyteller" vibe.
+
+### ✅ Recommended: Edge TTS (free, no API key, best value)
+Best voice = **`es-MX-JorgeNeural`** (deep Mexican male). Alt: `es-MX-LibertoNeural`, `es-ES-AlvaroNeural`.
+```bash
+pip install edge-tts
+
+edge-tts --voice es-MX-JorgeNeural \
+  --rate=-12% \        # slow, deliberate (narrator feel)
+  --pitch=-3Hz \       # thoda deeper/grave
+  --file script.txt \
+  --write-media voiceover.mp3 \
+  --write-subtitles subs.vtt
+```
+> ⚠️ Edge TTS cloud sandboxes/filtered proxies ke peeche DRM error (`No server date in headers`) de sakta hai — **normal machine/network par bilkul theek chalta hai.** Isliye voiceover apni machine par banao.
+
+### Other options
+- **ElevenLabs** — best quality + **voice clone** (narrator ki exact awaaz ke liye 1-min sample do). Paid.
+- **Azure TTS** — same Jorge/Alvaro neural voices, API.
+- **Human VO** — Fiverr Spanish male narrator.
+
+### Post
+- Export WAV/MP3, normalize to **~-14 LUFS**.
+- Key phrases par halka **reverb** (competitor jaisा) editor mein add karo.
 
 ---
 
