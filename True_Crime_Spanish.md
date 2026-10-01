@@ -1,4 +1,4 @@
-# 🎬 MASTER VIDEO GUIDE — Spanish True-Crime Faceless Channel
+# 🎬 True Crime Spanish — Spanish True-Crime Faceless Channel
 
 > Ek hi file mein poora system: **topic → title → script → voiceover → images/clips → video → thumbnail → upload**.
 > Har nayi video ke liye upar se neeche follow karo. Deep analysis ke liye `TRUE_CRIME_VIDEO_PIPELINE.md` dekho.
@@ -479,7 +479,7 @@ La puerta cerrada, un abrigo olvidado y ninguna explicación. ¿Qué ocurrió re
 ## 12. Zaroori files (repo mein)
 | File | Kya hai |
 |---|---|
-| `MASTER_VIDEO_GUIDE.md` | Yeh file (sab kuch) |
+| `True_Crime_Spanish.md` | Yeh file (sab kuch) |
 | `TRUE_CRIME_VIDEO_PIPELINE.md` | Competitor ka deep analysis (script, editing, sound) |
 | `DEMO_VIDEO_01_Eilean_Mor.md` | Test video ka pehla blueprint |
 | `video_build/scenes.py` | 19 test scenes ka original artwork generator (`python3 -c "import scenes"` + Pillow) |
