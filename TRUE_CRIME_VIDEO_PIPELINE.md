@@ -297,6 +297,97 @@ Tip: 2–3 variants banao, best chuno. A/B test (TubeBuddy/Thumbnail Test).
 
 ---
 
+## 7B. DEEP EDITING & SOUND DESIGN (frame-by-frame + audio, dono eras)
+
+> Yeh section multiple video segments (intro + body + climax + outro, dono purani viral aur nayi video) ko visually+audibly dekh kar banaya gaya hai. Isse tum editing + sound ko **replicate** kar sakte ho.
+
+### 7B.1 BACKGROUND MUSIC (score)
+- **Genre/mood:** Dark Ambient + Cinematic Suspense. Low-frequency **drones** + atmospheric **synth pads**; climax mein dheeमी **piano notes**.
+- **Behaviour:** Linear rehti hai (body mein achानक change nahi), narration ke **neeche low volume** par, aur **key points ke transitions par thoda upar** aati hai.
+- **Mood shift:** Jab main subject (criminal/victim) ki photo aati hai, music **zyada melancholic/deep** ho jati hai.
+- **Intro music:** Zyada rhythmic, SFX hits ke saath sync.
+- **Outro:** Koi happy "bye-bye" theme NAHI — music dheere-dheere **fade out** hoti hai aakhri reflection ke saath, phir **fade to black**.
+- **Silence:** Pehle bade impact se pehle ek **dramatic silence** (riser → silence → sub-bass hit).
+
+### 7B.2 SFX (sound effects) — full list jo detect huए
+**Intro/reveal hits:**
+- Metallic/dry **impact stinger** jab har killer ki photo aati hai
+- **Splash/impact** jab photo paani mein girti hai
+- **Muffled thud** jab envelope band hota hai
+- Deep **sub-bass impact** jo main story ka start mark karta hai
+- **Camera shutter** (purana camera) sound
+- **Marker squeak** jab text par cross lagta hai
+- **Riser** jo silence tak build hota hai
+
+**Transitions:**
+- **Paper whoosh** page-turn par
+- **Digital glitch/interference** jab phone screen mein enter karte hain
+- Deep **whoosh** scene change par
+
+**Diegetic (scene ke andar ke) sounds:**
+- Beer/liquid **pouring**, river/water **ambience**, **wind + forest creaks**, judge ka **gavel with echo**, "steel pipe" mention par metallic clink, aggression par dull **thuds**
+
+**Voice FX:** Key phrases par **reverb/echo** (jaise "carne humana") — dramatic emphasis.
+
+**⚠️ Important restraint rule:** Sensitive segments (bacche/victim ka zikr) mein **aggressive stingers OFF** — sirf subtle sub-boom + room-tone hum. Respectful rehna = policy-safe + mature feel.
+
+### 7B.3 AUDIO MIX hierarchy
+```
+1. NARRATION  → foreground, sabse loud, clear (-14 LUFS approx)
+2. MUSIC      → low background bed, silences fill karti hai
+3. SFX        → punctuation only, reveals/transitions par pop
+```
+
+### 7B.4 TRANSITIONS (kab kaunsा)
+- **Intro:** fast rhythmic **cuts** + digital **zoom-in** + quick **blurs** + ek **keyhole/circular mask** reveal + short **fade-to-black** jo intro ko body se alag karta hai.
+- **Body:** mostly **direct cuts** + soft **cross-dissolves**, har **10–20 sec**.
+- **Overlays:** criminal ka chehra city/scene ke upar **superimpose** (do images blend) — "introspection / paso del tiempo" feel.
+
+### 7B.5 CLIPS vs PHOTOS (ERA difference — bada farq)
+| | **Era 1 (purana viral)** | **Era 2 (naya)** |
+|---|---|---|
+| Video clips : Photos | **~90% video / 10% photos** | **~30% video / 70% stills** |
+| Material | High-quality stock: drone over rivers, misty forests, night city + real photos | AI/painterly-filtered portraits (identity protect), drone establishing shots, morgue/stock, actor recreation close-ups |
+| Body pacing | **4–6 sec/clip** (faster) | **12–15 sec/clip** (slow, solemn) |
+| SFX density | **Rich** (many stingers) | **Restrained** (subtle sub-booms) |
+| Intro | Full cinematic killer-montage intro | Lighter / quicker |
+| Feel | Punchy, cinematic | Somber, respectful, mature |
+
+### 7B.6 IMAGES & GRAPHICS used
+Real photos, **newspaper clippings**, letters/documents (e.g. Zodiac letters), **maps**, aur Era-2 mein **AI/painting-style stylized portraits** (jab real footage na ho ya identity chhupani ho).
+
+### 7B.7 VISUAL EFFECTS / FILTERS (constant stack)
+- **Film grain** + **dust/scratch textures** ("criminal archive / vintage" look) — poore video par overlay.
+- **Pronounced vignette** (dark edges) har frame par.
+- **Ken Burns** (slow zoom/pan) **har still photo** par — kabhi static nahi.
+- **Color grade:** desaturated, **cold tones** (dark blue/green), "dark & moody".
+- Era-2 ki photos par extra **artistic/painterly texture filter**.
+
+### 7B.8 BRANDING
+- Logo (name + **red skull**) intro mein center → phir **watermark top-right** poore video.
+- Cinematic **title cards** jo blur ke saath appear/disappear hote hain.
+
+### 7B.9 PACING cheat
+```
+INTRO:   1–2 sec/clip, music+SFX hits ke saath synced (frenetic)
+BODY:    Era1 = 4–6 sec/clip | Era2 = 12–15 sec/clip
+CLIMAX:  slow, deliberate, music volume thoda up, dramatic pauses
+OUTRO:   fade out music + fade to black, sober (no colorful endscreen)
+```
+
+### 7B.10 Editing REPLICA kit (banाo ek baar, reuse hamesha)
+1. **Intro template** (10–20s): killer/case montage + SFX hits + logo reveal.
+2. **Top-right watermark** PNG (name + red skull).
+3. **Color LUT:** desaturated cold + vignette.
+4. **Overlay pack:** film grain + dust/scratch (screen blend, ~15% opacity).
+5. **SFX library:** impact stingers, sub-booms, whooshes, risers, camera shutter, paper, glitch, gavel, ambiences.
+6. **Music bed:** 2–3 dark-ambient loops (royalty-free: Epidemic Sound, Artlist, YouTube Audio Library "dark/tension").
+7. **Title-card preset** (blur in/out).
+8. **Ken Burns preset** auto-apply on stills.
+Isse har video **30–50% faster** edit hoti hai aur brand-consistent dikhti hai.
+
+---
+
 ## 8. STEP 7 — DESCRIPTION, TAGS, UPLOAD
 
 ### 8.1 Description template
