@@ -14,7 +14,12 @@
 [7] UPLOAD + DESCRIPTION + TAGS  ←  [6] EDIT (faceless style)  ←  [5] THUMBNAIL
 ```
 
-Har video ka goal: **ek shocking/curiosity-driven title + thumbnail**, phir **20–35 min ka narrated documentary** jisme real photos + stock B-roll + Ken Burns zoom + dark color grade ho. Face kahin nahi aata — sirf narration + visuals.
+Har video ka goal: **ek shocking/curiosity-driven title + thumbnail**, phir **20–35 min ka narrated documentary** jisme AI images + Ken Burns zoom + dark color grade ho. Face kahin nahi aata — sirf narration + visuals.
+
+### 🧰 MERE PAAS JO ASSETS HAIN (is pipeline ko adjust karta hai)
+- ✅ **Editing pack (SFX + music)** — mera apna. Isliye SFX/music sourcing ki zaroorat NAHI. (Section 7B ko cue-sheet ki tarah use karo: kaunsा sound kahan.)
+- ✅ **AI image tool (unlimited images)** — mera apna. Isliye visuals **AI-FIRST** honge: stock footage dhoondne ki zaroorat nahi, script ki har exact scene ki image khud banao. Consistent, copyright-free, identity auto-safe.
+> **Baaqi sab cheez (titles, script, structure, thumbnail, pacing, grade) same rehti hai — sirf visual sourcing aur audio sourcing solved hai.**
 
 ---
 
@@ -380,11 +385,28 @@ OUTRO:   fade out music + fade to black, sober (no colorful endscreen)
 2. **Top-right watermark** PNG (name + red skull).
 3. **Color LUT:** desaturated cold + vignette.
 4. **Overlay pack:** film grain + dust/scratch (screen blend, ~15% opacity).
-5. **SFX library:** impact stingers, sub-booms, whooshes, risers, camera shutter, paper, glitch, gavel, ambiences.
-6. **Music bed:** 2–3 dark-ambient loops (royalty-free: Epidemic Sound, Artlist, YouTube Audio Library "dark/tension").
+5. **SFX library:** ✅ *tumhare editing pack se* — impact stingers, sub-booms, whooshes, risers, camera shutter, paper, glitch, gavel, ambiences. (Cue-sheet ban jayega: kaunsा kahan.)
+6. **Music bed:** ✅ *tumhare editing pack se* — 2–3 dark-ambient loops (intro / body / climax).
 7. **Title-card preset** (blur in/out).
 8. **Ken Burns preset** auto-apply on stills.
 Isse har video **30–50% faster** edit hoti hai aur brand-consistent dikhti hai.
+
+### 7B.11 AI-FIRST VISUAL WORKFLOW (tumhare image tool ke saath)
+Kyunki unlimited AI images hain, visuals ab stock par depend nahi karte:
+1. Script ke har section (hook, setup, timeline, crime, investigation, climax, outro) ke liye **shot list** banao — har 10–15 sec ke liye 1 image.
+2. Har shot ke liye AI image generate karo ek **consistent style prompt** ke saath:
+   ```
+   cinematic true-crime documentary still, dark moody lighting, desaturated
+   cold color grade, film grain, 16:9, <SCENE DESCRIPTION from script>,
+   no text, realistic, somber atmosphere
+   ```
+   `<SCENE DESCRIPTION>` = us beat ki exact scene (e.g. "a dark empty street at night in a Spanish town", "a worried mother waiting by a window", "police outside a house with tape").
+3. 25-min video ≈ **100–150 images** (har shot 1). Unlimited tool se yeh easy.
+4. Har image par **Ken Burns zoom + grain + vignette + cold grade** (same LUT) — yeh "glue" sab ko ek look deta hai.
+5. (Optional) 10–20% real establishing clips/maps mix kar sakte ho variety ke liye, par zaroori nahi.
+6. **Thumbnail bhi** usi tool se — real-photo style portrait + dark bg + red accent.
+
+> **Fayda:** script jo bhi scene maange, woh exact ban jati hai (stock mein nahi milti), 100% copyright-free, identity auto-protected, aur har video same brand-look.
 
 ---
 
